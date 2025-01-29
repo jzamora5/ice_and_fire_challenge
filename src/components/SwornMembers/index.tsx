@@ -1,8 +1,6 @@
 import { getCharacter } from "@/api/handlers";
 import { asyncDelay } from "@/utils";
 
-export const revalidate = 10;
-
 interface SwornMembersProps {
   swornMembersApiURLs: Array<string>;
 }
